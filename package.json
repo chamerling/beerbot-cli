@@ -1,0 +1,42 @@
+{
+  "name": "beerbot-cli",
+  "version": "0.0.0",
+  "description": "The Beerbot CLI",
+  "homepage": "",
+  "author": {
+    "name": "Christophe Hamerling",
+    "email": "chamerling@linagora.com",
+    "url": "http://chamerling.github.io"
+  },
+  "files": [
+    "lib", "bin"
+  ],
+  "bin": {
+    "beerbot": "bin/beerbot"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "beerbot",
+    "cli",
+    "bot",
+    "slack"
+  ],
+  "repository": "chamerling/beerbot-cli",
+  "dependencies": {
+    "beerbot": "chamerling/beerbot",
+    "beerbot-giphy": "chamerling/beerbot-giphy"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
